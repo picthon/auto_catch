@@ -74,7 +74,7 @@ async def _(event):
     bot = 'inlinegamesbot'
     xo = await picthon.inline_query(bot, "")
     await xo[0].click(
-        event.chat_id
+        event.chat_id,
         silent=True if event.is_reply else False,
         hide_via=True
     )
