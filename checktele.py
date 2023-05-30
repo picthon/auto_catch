@@ -1,4 +1,4 @@
-# by: t.me/Picthon
+# by: t.me/Picth0n
 
 import random
 import requests
@@ -144,7 +144,7 @@ async def _(event):
  الامر:   `.حالة الصيد`
  • لمعرفة عدد المحاولات للصيد
 
- @picthon**
+ @PICTH0N**
 
 '''
     )
@@ -170,7 +170,7 @@ async def hunterusername(event):
             ch = await picthon(
                 functions.channels.CreateChannelRequest(
                     title="PICTHON HUNTER",
-                    about="This channel to hunt username by - @picthon ",
+                    about="This channel to hunt username by - @PICTH0N ",
                 )
             )
             ch = ch.updates[1].channel_id
