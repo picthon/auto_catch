@@ -1,7 +1,7 @@
 from telethon import Button, events
 import os
 from pytube import YouTube
-from youtube_search import YoutubeSearc
+from youtube_search import YoutubeSearch
 import json
 from config import *
 picthon.start()
