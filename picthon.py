@@ -145,7 +145,7 @@ async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=Fal
     counter = int(cat[0])
     if len(cat) == 2:
         spam_message = str(cat[1])
-        for _ in range(counter)
+        for _ in range(counter):
             if event.reply_to_msg_id:
                 await sandy.reply(spam_message)
             else:
