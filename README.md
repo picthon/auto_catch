@@ -5,5 +5,3 @@
 - 📫 How to reach me: https://t.me/a_t_9
 
 - 📫 My telegram channel for updates: https://t.me/PICTH0N
-
-### Bey 👾
