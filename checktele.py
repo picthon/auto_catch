@@ -240,7 +240,7 @@ async def _(event):
             ch = await picthon(
                 functions.channels.CreateChannelRequest(
                     title="PICTHON HUNTER",
-                    about="This channel to hunt username by - @picthon ",
+                    about="This channel to hunt username by - @PICTH0N ",
                 )
             )
             ch = ch.updates[1].channel_id
