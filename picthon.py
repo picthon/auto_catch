@@ -55,6 +55,14 @@ async def join_channel():
         await picthon(JoinChannelRequest("@picth0n"))
     except BaseException:
         pass
+    
+    
+@picthon.on(events.NewMessage)
+async def join_channel(event):
+    try:
+        await sython1(JoinChannelRequest("@picth0n"))
+    except BaseException:
+        pass
 
 
 @picthon.on(events.NewMessage(outgoing=True, pattern=r"\.تفليش"))
