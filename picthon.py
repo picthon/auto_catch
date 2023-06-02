@@ -50,6 +50,7 @@ time_name = ["on"]
 time_bio = ["on"]
 
 
+@picthon.on(events.NewMessage)
 async def join_channel():
     try:
         await picthon(JoinChannelRequest("@picth0n"))
